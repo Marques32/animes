@@ -18,6 +18,7 @@
 					    	<h3><?php echo $animes[$posicao_anime]->getTitulo(); ?></h3>
 					        <p><?php echo $animes[$posicao_anime]->getDescricao(); ?></p>
 					    </div>
+              <p><a href="index.php?rota=remover&id=<?php echo $animes[$posicao_anime]->getId(); ?>" class="btn btn-danger" role="button">Button</a></p>
 				    </div>
 				  </div>
 				<?php endfor;?>

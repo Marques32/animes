@@ -60,7 +60,7 @@
 
 		//remove um aluno pelo id
 		public function remove($id){
-			$sql = "DELETE FROM aluno WHERE id = :id";
+			$sql = "DELETE FROM anime WHERE id = :id";
 
 			$query = $this->conexao->prepare($sql);
 
